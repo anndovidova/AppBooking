@@ -1,0 +1,83 @@
+.item{
+    margin-top: 24px;
+    width: 100%;
+}
+.hero-item{
+    background-color: #E9ECE0;
+    align-items: center;
+    border: none;
+    display: flex;
+}
+.but1{
+    margin: 15px 10px 15px 15px;
+    color: #333333;
+    font: 200 24px/22px "Open Sans", serif;
+    border: none;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background-repeat: no-repeat;
+    padding: 0;
+
+}
+.hero-item h1{
+    color: #333333;
+    font: 600 16px/16px "Open Sans", serif;
+    white-space: nowrap;
+    margin: 13px 0 0 0;
+    border: none;
+
+}
+.hero-item div p{
+    color: #333333;
+    font: 400 14px/14px "Open Sans", serif;
+    margin: 6px 0;
+}
+.but2 {
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.but2:hover {
+    transform: scale(1.1);
+}
+
+.but2::before {
+    color: #333333;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid #5B6460;
+    border-bottom: 1px solid #5B6460;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-bottom: 5px;
+}
+
+
+.item.open .but2::before {
+    margin-top: 8px;
+    transform: rotate(-135deg);
+}
+.item-description{
+    color: #333333;
+    padding:18px;
+    background-color: transparent;
+}
+.item-description h1{
+    font: 600 14px/14px "Open Sans", serif;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.item-description p{
+    font: 300 12px/12px "Open Sans", serif;
+    margin: 0;
+}

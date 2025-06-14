@@ -1,0 +1,110 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    height: 100px;
+    background: white;
+    top:0;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header>a {
+    margin-right: 5px;
+    margin-left: 11vw;
+}
+header a img{
+    height: auto;
+    width: 5vw;
+    min-width: 45px;
+}
+header>a:hover,header>a:active {
+    opacity: 60%;
+}
+nav{
+    display: flex;
+
+}
+ul.navigation{
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    gap: 3vw;
+    font: 300 clamp(10px, 1vw, 1vw)/24px "Roboto", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    list-style-type: none;
+    height: 25%;
+}
+ul.navigation li a{
+    color:#333333;
+    text-decoration: none;
+}
+ul.navigation li a:hover,ul.navigation li a:active{
+    color: #808E88;
+}
+.book{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    background: #5B6460;
+    color: white;
+    font: 300 clamp(10px, 1vw, 1vw)/28px "Roboto", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+header>button{
+    margin-right: 2%;
+    margin-left: 4%;
+    min-width: 14%;
+    height: 60%;
+
+}
+header>button.book:hover,.button-book button:hover{
+    background: #808E88;
+}
+
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 0 5%;
+    max-height: 25px;
+}
+.lang-selected {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    max-height: 25px;
+}
+
+.language-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.language-options button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    max-height: 25px;
+}
+
+.language-options button:hover,#language-dropdown button:hover {
+    opacity: 60%;
+}

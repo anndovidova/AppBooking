@@ -1,0 +1,14 @@
+.rules
+{
+    margin-top: 80px;
+}
+.rules p:first-child{
+    margin-top: 20px;
+}
+.rules p{
+    margin-top:5px;
+    margin-bottom:5px;
+    color:#333333;
+    font: 400 12px/12px "Open Sans", serif;
+    line-height: 20px;
+}

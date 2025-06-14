@@ -1,0 +1,27 @@
+footer section{
+
+    background-color: #5B6460;
+    height: 110px;
+}
+
+.documents{
+    display: flex;
+    gap:3vw;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.media{
+    display: flex;
+    gap:3vw;
+    justify-content: right;
+    padding-right: 20px;
+}
+.documents span
+{
+    white-space: nowrap;
+    color:white;
+    font: 200 clamp(12px,1vw,1vw)/24px "Roboto", sans-serif;
+    text-transform: uppercase;
+}

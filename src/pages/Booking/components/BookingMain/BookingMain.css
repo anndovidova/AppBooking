@@ -1,0 +1,27 @@
+.bookingMain {
+    display: flex;
+    gap: 137px;
+    padding: 50px 32px 100px 146px;
+
+}
+.service{
+    min-width: 400px;
+    width: 50%;
+}
+.check{
+    height: 450px;
+    border: 1px solid #5B6460;
+    width: 31%;
+}
+.service>h1, .rules h1{
+    color: #5B6460;
+    font: 400 20px/22px "Open Sans", serif;
+    width: 100%;
+    border-bottom: 1px solid #5B6460;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.service .book{
+    margin-top: 80px;
+    margin-left: auto;
+}

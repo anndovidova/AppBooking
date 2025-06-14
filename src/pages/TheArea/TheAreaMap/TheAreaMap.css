@@ -1,0 +1,53 @@
+.the-area-map
+{
+    width: 100%;
+    display: flex;
+}
+.map-text{
+    min-width: 498px;
+    white-space: nowrap;
+    height: 450px;
+    width: 50%;
+    margin: 0;
+}
+.map-text p{
+    height: 168px;
+    width: 62%;
+    margin-left:25% ;
+    margin-top: 110px;
+    color:#5B6460;
+    font: 400 clamp(30px,2.9vw,2.9vw)/40px "Open Sans", sans-serif;
+}
+.the-area-map .map-points{
+    position: relative;
+    min-width: 278px;
+    width: 50%;
+    height: 428px;
+    margin-left: 1vw;
+}
+.first{
+    margin: 0;
+    position: absolute;
+    top:238px;
+    left:312px;
+    color:#5B6460;
+    font: 400 clamp(15px,1.3vw,1.3vw)/24px "Handlee", sans-serif;
+}
+.second{
+    margin: 0;
+    position: absolute;
+    top:345px;
+    left:187px;
+    color:#5B6460;
+    font: 400 clamp(18px,1.6vw,1.6vw)/24px "Handlee", sans-serif;
+}
+.first-point{
+    top:266px;
+    left:332px;
+    position: absolute;
+}
+.second-point{
+    top:377px;
+    left:238px;
+    position: absolute;
+}
